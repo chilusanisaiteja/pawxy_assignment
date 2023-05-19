@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Pawxy Youtube clone</title>
+    <script src="pawxy.js"></script>
+</head>
+<body>
+    <div class="home">
+    <div class="header">
+        <div class="pawxy">
+        <img class="pawxyimg" src="/asserts/pawxy.png" alt=""/>
+        </div>
+        <div class="name">
+            Simple Video Search Engine
+        </div>
+    </div>
+    <div class="search">
+        <input type="text" id="search" name="searchname"/>
+        <img class="searchicon" src="/asserts/icons8-search-48.png" alt=""/>
+    </div>
+    <div class="page">
+        <ul id="results"></ul>
+    </div>
+    <div class="pag">
+    <div id="pagination">
+    <button id="prev" disabled>&lt; - Prev</button>
+    <button id="next" disabled>Next - &gt;</button>
+  </div>
+    </div>
+       <div id="video-details">
+    <div id="video-player"></div>
+    <button id="view-button" class="view-button">View</button>
+    <button id="close-button" class="close-button">Close</button>
+  </div>
+    <div class="last">
+         <img class="searchicon2" src="/asserts/icons8-search-48.png" alt=""/>
+         <p id="searchvalue">Search</p>
+</div>
+</body>
+</html>
+
